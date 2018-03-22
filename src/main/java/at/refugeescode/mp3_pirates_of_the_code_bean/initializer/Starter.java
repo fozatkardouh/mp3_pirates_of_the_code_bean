@@ -11,8 +11,7 @@ public class Starter {
     @Bean
     public ApplicationRunner startPoint(JackSparrow jackSparrow) {
         return args -> {
-            jackSparrow.searchForTheCursedCoin();
-            System.out.println(jackSparrow.getCursedCoin());
+            System.out.println(jackSparrow.searchForTheCursedCoin());
         };
     }
 
