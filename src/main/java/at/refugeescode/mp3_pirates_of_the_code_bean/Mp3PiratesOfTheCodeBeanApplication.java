@@ -9,4 +9,5 @@ public class Mp3PiratesOfTheCodeBeanApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(Mp3PiratesOfTheCodeBeanApplication.class, args);
 	}
+
 }
